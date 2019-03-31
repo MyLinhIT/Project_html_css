@@ -1,0 +1,237 @@
+@import "../node_modules/owl.carousel/dist/assets/owl.carousel.css";
+@media (min-width: 992px) and (max-width: 1140px) {
+  .mid-news .content-mid-news .figure-caption .title {
+    font-size: 1.4rem;
+  }
+  .mid-news .content-mid-news .figure-caption .content .post-name {
+    font-size: 1rem;
+  }
+
+  .bot-news .bot-left-news .figure-caption .title {
+    font-size: 1.6rem;
+  }
+  .bot-news .bot-left-news .figure-caption .content .post-name {
+    font-size: 1rem;
+  }
+
+  footer .container-builder {
+    padding-left: 30px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  header .nav-bar {
+    box-shadow: 0 5px 5px rgba(39, 39, 39, 0.1);
+  }
+  header .nav-bar .content-nav .navbar-toggler {
+    border: 0 !important;
+  }
+  header .nav-bar .content-nav .navbar-nav .nav-item.active .nav-link, header .nav-bar .content-nav .navbar-nav .nav-item a:hover {
+    color: #000000 !important;
+    font-size: 1rem !important;
+    background-color: #f4f4f4 !important;
+    opacity: 0.5;
+  }
+  header .nav-bar .content-nav .DangNhap-DangKy:hover {
+    background-color: #f4f4f4 !important;
+    opacity: 0.5;
+  }
+  header .nav-bar .content-nav .DangNhap-DangKy:hover a {
+    color: #000000 !important;
+    font-size: 1rem !important;
+  }
+
+  .top-news .container {
+    padding: 0;
+  }
+  .top-news .container .row {
+    display: block !important;
+  }
+  .top-news .container .row .top-left-news {
+    width: 100% !important;
+  }
+  .top-news .container .row .top-right-news {
+    height: 440px;
+  }
+  .top-news .container .row .top-right-news .content-top-right-news {
+    display: flex !important;
+    flex-direction: row !important;
+  }
+  .top-news .container .row .top-right-news .content-top-right-news .Doc-Nhieu-Nhat {
+    width: 50%;
+    padding-right: 10px;
+  }
+  .top-news .container .row .top-right-news .content-top-right-news .Editors-choice {
+    width: 50%;
+  }
+
+  .mid-news .row {
+    display: block !important;
+  }
+
+  .mobile {
+    display: flex !important;
+    flex-direction: row;
+    z-index: 0;
+    padding-right: 0px;
+  }
+  .mobile .crash-course-col {
+    height: 725px;
+    padding-right: 15px;
+    padding-left: 0;
+  }
+  .mobile .crash-course-col .crash-course {
+    box-shadow: 0 1px 15px 1px rgba(39, 39, 39, 0.1);
+  }
+  .mobile .news {
+    box-shadow: 0 1px 15px 1px rgba(39, 39, 39, 0.1);
+    margin-top: 30px !important;
+    padding-left: 0 !important;
+    padding-right: 0;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .pag-bar {
+    display: none;
+  }
+
+  footer .container-builder {
+    padding-left: 30px !important;
+  }
+  footer .container-builder .content-footer {
+    width: 100%;
+    display: block;
+  }
+  footer .container-builder .content-footer .d-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  footer .container-builder .content-footer .d-flex .dieu-khoan-chinh-sach {
+    padding-top: 30px !important;
+  }
+  footer .container-builder .content-footer .d-flex .doi-tac {
+    padding-top: 30px !important;
+    padding-right: 150px !important;
+  }
+  footer .container-builder .content-footer .footer-item .footer-social {
+    width: 25%;
+  }
+  footer .container-builder .content-footer .footer-rapbank-VN {
+    font-size: 1.2rem;
+    letter-spacing: 1.2px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  header .nav-bar {
+    box-shadow: 0 5px 5px rgba(39, 39, 39, 0.1);
+  }
+  header .nav-bar .content-nav .navbar-toggler {
+    border: 0 !important;
+  }
+  header .nav-bar .content-nav .navbar-nav .nav-item.active .nav-link, header .nav-bar .content-nav .navbar-nav .nav-item a:hover {
+    color: #000000 !important;
+    font-size: 1rem !important;
+    background-color: #f4f4f4 !important;
+    opacity: 0.5;
+  }
+  header .nav-bar .content-nav .DangNhap-DangKy:hover {
+    background-color: #f4f4f4 !important;
+    opacity: 0.5;
+  }
+  header .nav-bar .content-nav .DangNhap-DangKy:hover a {
+    color: #000000 !important;
+    font-size: 1rem !important;
+  }
+
+  .top-news .top-left-news {
+    height: 603px;
+  }
+  .top-news .top-left-news .content-top-left-news {
+    height: 100%;
+  }
+
+  .mobile {
+    display: block !important;
+    z-index: 0;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .pag-bar {
+    display: none;
+  }
+
+  footer .container-builder {
+    padding-left: 30px !important;
+  }
+  footer .container-builder .content-footer .d-flex {
+    display: block !important;
+  }
+  footer .container-builder .content-footer .d-flex .dieu-khoan-chinh-sach {
+    padding-top: 20px !important;
+  }
+  footer .container-builder .content-footer .d-flex .doi-tac {
+    padding-top: 20px;
+  }
+}
+@media (max-width: 575.98px) {
+  header .nav-bar {
+    box-shadow: 0 5px 5px rgba(39, 39, 39, 0.1);
+  }
+  header .nav-bar .content-nav .navbar-toggler {
+    border: 0 !important;
+  }
+  header .nav-bar .content-nav .navbar-nav .nav-item.active .nav-link, header .nav-bar .content-nav .navbar-nav .nav-item a:hover {
+    color: #000000 !important;
+    font-size: 1rem !important;
+    background-color: #f4f4f4 !important;
+    opacity: 0.5;
+  }
+  header .nav-bar .content-nav .DangNhap-DangKy:hover {
+    background-color: #f4f4f4 !important;
+    opacity: 0.5;
+  }
+  header .nav-bar .content-nav .DangNhap-DangKy:hover a {
+    color: #000000 !important;
+    font-size: 1rem !important;
+  }
+
+  .top-news .top-left-news {
+    height: 603px;
+  }
+  .top-news .top-left-news .content-top-left-news {
+    height: 100%;
+  }
+
+  .mobile {
+    display: block !important;
+    z-index: 0;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .pag-bar {
+    display: none;
+  }
+
+  footer .container-builder {
+    padding-left: 30px !important;
+  }
+  footer .container-builder .content-footer .d-flex {
+    display: block !important;
+  }
+  footer .container-builder .content-footer .d-flex .dieu-khoan-chinh-sach {
+    padding-top: 20px !important;
+  }
+  footer .container-builder .content-footer .d-flex .doi-tac {
+    padding-top: 60px;
+  }
+}
+
+/*# sourceMappingURL=res.css.map */

@@ -1,0 +1,303 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/owl.carousel/dist/assets/owl.carousel.css";
+
+@media (min-width:992px) and (max-width: 1140px){
+
+    .mid-news {
+        .content-mid-news {
+            .figure-caption {
+                .title {
+                    font-size: 1.4rem;
+                }
+                .content {
+                    .post-name {
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+    .bot-news {
+        .bot-left-news {
+            .figure-caption {
+                .title {
+                    font-size: 1.6rem;
+                }
+
+                .content {
+                    .post-name {
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+    footer {
+        .container-builder {
+            padding-left: 30px !important;
+        }
+    }
+}
+@media (min-width:768px) and (max-width: 991.98px){
+    header {
+        .nav-bar {
+            box-shadow: 0 5px 5px rgba(39, 39, 39, .1);
+            .content-nav {
+                .navbar-toggler {
+                    border: 0 !important;
+                }
+
+                .navbar-nav {
+                    .nav-item {
+                        &.active .nav-link, a:hover {
+                            color: #000000 !important;
+                            font-size: 1rem !important;
+                            background-color: #f4f4f4 !important;
+                            opacity: .5;
+                        }
+                    }
+                }
+
+                .DangNhap-DangKy:hover {
+                    background-color: #f4f4f4 !important;
+                    opacity: .5;
+                    a {
+                        color: #000000 !important;
+                        font-size: 1rem !important;
+                    }
+                }
+            }
+        }
+    }
+    .top-news{
+        .container{
+            padding: 0;
+            .row{
+                display: block !important;
+                .top-left-news{
+                    width: 100% !important;
+                }
+                .top-right-news {
+                    height: 440px;
+
+                    .content-top-right-news {
+                        display: flex !important;
+                        flex-direction: row !important;
+
+                        .Doc-Nhieu-Nhat {
+                            width: 50%;
+                            padding-right: 10px;
+                        }
+
+                        .Editors-choice {
+                            width: 50%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .mid-news{
+        .row{
+            display: block !important;
+
+        }
+    }
+
+    .mobile{
+        display: flex !important;
+        flex-direction: row;
+        z-index: 0;
+        padding-right: 0px;
+        .crash-course-col{
+            height: 725px;
+            padding-right: 15px;
+            padding-left: 0;
+            .crash-course{
+                box-shadow: 0 1px 15px 1px rgba(39, 39, 39, .1);
+            }
+        }
+        .news {
+            box-shadow: 0 1px 15px 1px rgba(39, 39, 39, .1);
+            margin-top: 30px !important;
+            padding-left: 0 !important;
+            padding-right: 0;
+        }
+    }
+    .desktop{
+        display: none;
+    }
+    .pag-bar{
+        display: none;
+    }
+    footer{
+        .container-builder{
+            padding-left: 30px !important;
+            .content-footer{
+                width: 100%;
+                display: block;
+                .d-flex{
+                    display: flex;
+                    justify-content: space-between;
+                    .dieu-khoan-chinh-sach{
+                        padding-top: 30px !important;
+                    }
+                    .doi-tac{
+                        padding-top: 30px !important;
+                        padding-right: 150px !important;
+                    }
+                }
+              .footer-item{
+                  .footer-social{
+                      width: 25%;
+                  }
+              }
+                .footer-rapbank-VN{
+                    font-size: 1.2rem;
+                    letter-spacing: 1.2px;
+                }
+            }
+        }
+
+
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    header {
+        .nav-bar {
+            box-shadow: 0 5px 5px rgba(39, 39, 39, .1);
+            .content-nav {
+                .navbar-toggler {
+                    border: 0 !important;
+                }
+
+                .navbar-nav {
+                    .nav-item {
+                        &.active .nav-link, a:hover {
+                            color: #000000 !important;
+                            font-size: 1rem !important;
+                            background-color: #f4f4f4 !important;
+                            opacity: .5;
+                        }
+                    }
+                }
+
+                .DangNhap-DangKy:hover {
+                    background-color: #f4f4f4 !important;
+                    opacity: .5;
+
+                    a {
+                        color: #000000 !important;
+                        font-size: 1rem !important;
+                    }
+                }
+            }
+        }
+    }
+    .top-news{
+        .top-left-news{
+            height: 603px;
+            .content-top-left-news{
+                height: 100%;
+            }
+        }
+    }
+    .mobile{
+        display: block !important;
+        z-index: 0;
+    }
+    .desktop{
+        display: none;
+    }
+    .pag-bar{
+        display: none;
+    }
+    footer{
+        .container-builder {
+            padding-left: 30px !important;
+            .content-footer {
+                .d-flex {
+                    display: block !important;
+                    .dieu-khoan-chinh-sach{
+                        padding-top: 20px !important;
+                    }
+                    .doi-tac{
+                        padding-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+@media (max-width: 575.98px){
+    header {
+        .nav-bar {
+            box-shadow: 0 5px 5px rgba(39, 39, 39, .1);
+
+            .content-nav {
+                .navbar-toggler {
+                    border: 0 !important;
+                }
+
+                .navbar-nav {
+                    .nav-item {
+                        &.active .nav-link, a:hover {
+                            color: #000000 !important;
+                            font-size: 1rem !important;
+                            background-color: #f4f4f4 !important;
+                            opacity: .5;
+                        }
+                    }
+                }
+
+                .DangNhap-DangKy:hover {
+                    background-color: #f4f4f4 !important;
+                    opacity: .5;
+
+                    a {
+                        color: #000000 !important;
+                        font-size: 1rem !important;
+                    }
+                }
+            }
+        }
+    }
+    .top-news{
+        .top-left-news{
+            height: 603px;
+            .content-top-left-news{
+                height: 100%;
+            }
+        }
+    }
+    .mobile{
+        display: block !important;
+        z-index: 0;
+    }
+    .desktop{
+        display: none;
+    }
+    .pag-bar{
+        display: none;
+    }
+    footer{
+        .container-builder{
+            padding-left: 30px !important;
+            .content-footer{
+                .d-flex{
+                    display: block !important;
+                    .dieu-khoan-chinh-sach{
+                        padding-top: 20px !important;
+                    }
+                    .doi-tac{
+                        padding-top: 60px;
+                    }
+                }
+            }
+        }
+    }
+}
